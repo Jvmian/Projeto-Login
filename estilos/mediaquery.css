@@ -23,6 +23,7 @@ grandes telas de 1200px p cima
     }
     section#login{
         width: 80vh;
+        height: 300px;
     }
     section#login > div#imagem {
         float: left;
@@ -40,6 +41,7 @@ grandes telas de 1200px p cima
     }
  section#login{
         width: 950px;
+        height: 400px;
     }
  section#login > div#imagem {
     float: right;

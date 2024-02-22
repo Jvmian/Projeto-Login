@@ -34,19 +34,19 @@ main {
 }
 section#login{
     background-color: white;
-    width: 250px;
+    width: 255px;
     height: 500px;
     border-radius: 20px;
 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
 
     transition: width .4s, heigth .4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -67,5 +67,86 @@ text-align: center;
 margin-bottom: 10px;
 }
 div#formulario > p{
-font-size: 0.8em;
+font-size: 0.9em;
+margin: 10px 0px;
+text-align: justify;
+}
+form > div.campo {
+    background-color: #02273D;
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 2px solid #02273D;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
+}
+div.campo > label {
+    display: none;
+}
+div.campo > i {
+    color: #F1F0CC;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+    transform: translateY(-7px);
+}
+div.campo > input:focus-within {
+    background-color: #F1F0CC;
+    border: none;
+}
+form > div.campo > input {
+    background-color: #016FB9;
+    font-size: 1em;
+    margin-bottom:0px;
+    border: none;
+    border-radius: 8px;
+    width: calc(100% - 45px);
+    height: 100%;
+    padding: 4px;
+    transform: translateY(-17px);
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    color: #F1F0CC;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+}
+form > input[type=submit]:hover{
+       background-color: var(--cor2);
+       cursor: pointer;
+       transition: .5s;
+       transition-timing-function: ease;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor3);
+    color:var(--cor2);
+    border: 1.5px solid var(--cor2);
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 2px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+}
+form > a.botao:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    cursor: pointer;
+       transition: .5s;
+       transition-timing-function: ease;
+}
+form > a.botao > i {
+  font-size: 0.8em;
+   
 }
