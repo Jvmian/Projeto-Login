@@ -111,6 +111,9 @@ div.campo > input:focus-within {
     background-color: #F1F0CC;
     border: none;
 }
+form > div.campo > input::placeholder{
+color: #02273D;
+}
 form > div.campo > input {
     background-color: #0282d8;
     color: #02273D;
