@@ -1,1 +1,3 @@
-Ainda não configurado!!
+<?php
+echo"Ainda não configurado !!";
+?>
