@@ -29,10 +29,8 @@ cd tela-login
 ## 🌐 Links do projeto
 
 🔗 **Preview do projeto:**  
-(coloque aqui o link do GitHub Pages, se houver)
+(https://jvmian.github.io/Projeto-Login/index.html)
 
-🔗 **Repositório GitHub:**  
-(coloque aqui o link do repositório)
 
 ---
 
